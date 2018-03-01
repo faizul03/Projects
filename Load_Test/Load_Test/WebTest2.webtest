@@ -1,0 +1,997 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest2" Id="9b21fb11-5798-452f-8714-f73aada57f05" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest2.15c8cc33-fec7-42a0-813a-7497dbe31d98.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="590dcd67-1d4d-4705-a200-7750634232e3" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="w" RecordedValue="w" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="0ed399a4-595d-40a1-affa-ea36aaea45c2" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="ww" RecordedValue="ww" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="be6fe37a-11c0-42a0-8724-c62971cebf7a" Version="1.1" Url="https://www2.jacksonhewitt.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="79d948d5-ec70-407e-802a-1882b0dfe128" Version="1.1" Url="https://www2.jacksonhewitt.com/Content/Fonts/Lato/fonts/lato-v11-latin-300.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www2.jacksonhewitt.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="2b5326d2-d47f-4e89-a5de-fe8718c76d60" Version="1.1" Url="https://www2.jacksonhewitt.com/Content/Fonts/Lato/fonts/lato-v11-latin-300.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www2.jacksonhewitt.com/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="607368dc-a461-448c-8be2-7662ec39636f" Version="1.1" Url="https://www2.jacksonhewitt.com/Content/Fonts/Lato/fonts/lato-v11-latin-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www2.jacksonhewitt.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="ba68d88b-4cbf-46d2-9443-24a47d92820e" Version="1.1" Url="https://www2.jacksonhewitt.com/Content/Fonts/Lato/fonts/lato-v11-latin-italic.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www2.jacksonhewitt.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="869d962e-1a89-4b3e-bbfc-1401dc54d6ee" Version="1.1" Url="https://www2.jacksonhewitt.com/Content/Fonts/Lato/fonts/lato-v11-latin-700.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www2.jacksonhewitt.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="1e760a53-1d2d-4404-bc94-64007bcc88e7" Version="1.1" Url="https://bat.r.msn.com/action-uic/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www2.jacksonhewitt.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="ti" Value="5176460" RecordedValue="5176460" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Ver" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mid" Value="0580bc0d-3b1a-c6fc-5ae1-7053aec7a2fe" RecordedValue="0580bc0d-3b1a-c6fc-5ae1-7053aec7a2fe" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="evt" Value="pageLoad" RecordedValue="pageLoad" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pi" Value="576086242" RecordedValue="576086242" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="lg" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sh" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sc" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="tl" Value="Jackson+Hewitt+%c2%ae" RecordedValue="Jackson+Hewitt+%c2%ae" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="p" Value="https%3A%2F%2Fwww2.jacksonhewitt.com%2F" RecordedValue="https%3A%2F%2Fwww2.jacksonhewitt.com%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="r" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="rn" Value="277180" RecordedValue="277180" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="5e877700-0a3e-4edd-8ded-a2a13cdd6071" Version="1.1" Url="https://bat.bing.com/action/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www2.jacksonhewitt.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="ti" Value="5176460" RecordedValue="5176460" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Ver" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mid" Value="0580bc0d-3b1a-c6fc-5ae1-7053aec7a2fe" RecordedValue="0580bc0d-3b1a-c6fc-5ae1-7053aec7a2fe" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="evt" Value="pageLoad" RecordedValue="pageLoad" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pi" Value="576086242" RecordedValue="576086242" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="lg" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sh" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sc" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="tl" Value="Jackson+Hewitt+%c2%ae" RecordedValue="Jackson+Hewitt+%c2%ae" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="p" Value="https%3A%2F%2Fwww2.jacksonhewitt.com%2F" RecordedValue="https%3A%2F%2Fwww2.jacksonhewitt.com%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="r" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="rn" Value="450242" RecordedValue="450242" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="e121b8e8-6004-4a7b-9ce7-ff9c55e9971d" Version="1.1" Url="https://www2.jacksonhewitt.com/Content/Fonts/font-awesome/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www2.jacksonhewitt.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="584b2318-157f-4cd9-8f22-2b947d500200" Version="1.1" Url="https://www2.jacksonhewitt.com/Content/Fonts/VarelaRound/fonts/varela-round-v6-latin-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www2.jacksonhewitt.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1.source" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?source=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="11fda29e-ed81-4716-b7ef-a241fae3cb3d" Version="1.1" Url="https://bs.serving-sys.com/Serving" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www2.jacksonhewitt.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="cn" Value="ot" RecordedValue="ot" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="onetagid" Value="4398" RecordedValue="4398" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dispType" Value="js" RecordedValue="js" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sync" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pageurl" Value="$$https%3A//www2.jacksonhewitt.com/$$" RecordedValue="$$https%3A//www2.jacksonhewitt.com/$$" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ns" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rnd" Value="08505653466110713" RecordedValue="08505653466110713" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="a6f93294-253b-4660-a380-e6d6ff3cc0cd" Version="1.1" Url="https://www2.jacksonhewitt.com/MyJH/Dashboard/Check-Status/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="7fa9ae2d-1aba-467b-96d9-a810e51004d8" Version="1.1" Url="https://fonts.googleapis.com/css" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="family" Value="Lato:400italic,700italic,300,400,700|Varela+Round" RecordedValue="Lato:400italic,700italic,300,400,700|Varela+Round" CorrelationBinding="{{QueryStringParam163.family}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="4d185d9a-05bd-4263-91dd-a07229f1ab0b" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/KT3KS9Aol4WfR6Vas8kNcg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="56b2b929-0524-4165-9405-6b6e469e7e17" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/9k-RPmcnxYEPm8CNFsH2gg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="db0c5b26-2924-401f-a36d-440358f97c3a" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/wkfQbvfT_02e2IWO3yYueQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="6bdabad0-3964-4465-9253-65c8d2aed65c" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/oUan5VrEkpzIazlUe5ieaA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="e74d4544-7a66-4431-b0d6-f05d00d50acf" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYED8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="b4b74e1f-d292-4dba-b2d1-b82b50b58a63" Version="1.1" Url="https://fonts.gstatic.com/s/varelaround/v7/APH4jr0uSos5wiut5cpjrnhCUOGz7vYGh680lGh-uXM.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="b958dcdf-4d1a-4f23-836c-3811d426010f" Version="1.1" Url="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="7c266825-e8c6-430a-8fbc-79376b08eed1" Version="1.1" Url="https://bs.serving-sys.com/Serving" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="cn" Value="ot" RecordedValue="ot" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="onetagid" Value="4398" RecordedValue="4398" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="dispType" Value="js" RecordedValue="js" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sync" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pageurl" Value="$$https%3A//accounts.jacksonhewitt.com/Account/SignIn%3FReturnUrl%3D%252fwsfed%252f%253fwa%253dwsignin1.0%2526wtrealm%253dhttps%25253a%25252f%25252fwww2.jacksonhewitt.com%25252fMyJH%25252f%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fMyJH%2525252fDashboard%2525252fCheck-Status%2525252f%2525253fsource%2525253dmyjh%2526wct%253d2016-07-13T01%25253a00%25253a49Z%26wa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3D2016-07-13T01%253a00%253a49Z$$" RecordedValue="$$https%3A//accounts.jacksonhewitt.com/Account/SignIn%3FReturnUrl%3D%252fwsfed%252f%253fwa%253dwsignin1.0%2526wtrealm%253dhttps%25253a%25252f%25252fwww2.jacksonhewitt.com%25252fMyJH%25252f%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fMyJH%2525252fDashboard%2525252fCheck-Status%2525252f%2525253fsource%2525253dmyjh%2526wct%253d2016-07-13T01%25253a00%25253a49Z%26wa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3D2016-07-13T01%253a00%253a49Z$$" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ns" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="rnd" Value="7869037035800851" RecordedValue="7869037035800851" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="referrer" Value="$$https://www2.jacksonhewitt.com/$$" RecordedValue="$$https://www2.jacksonhewitt.com/$$" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="697a241c-1ddc-4855-92be-7767514249fe" Version="1.1" Url="https://bat.r.msn.com/action-uic/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="ti" Value="5176460" RecordedValue="5176460" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Ver" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mid" Value="f6d168dc-e8d8-79b5-3b48-79eed5a311c8" RecordedValue="f6d168dc-e8d8-79b5-3b48-79eed5a311c8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="evt" Value="pageLoad" RecordedValue="pageLoad" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="lt" Value="706" RecordedValue="706" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pi" Value="576086242" RecordedValue="576086242" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="lg" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sh" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sc" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="r" Value="https%3A%2F%2Fwww2.jacksonhewitt.com%2F" RecordedValue="https%3A%2F%2Fwww2.jacksonhewitt.com%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="tl" Value="Sign+In+|+Jackson+Hewitt+Tax+Service" RecordedValue="Sign+In+|+Jackson+Hewitt+Tax+Service" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="p" Value="https%3A%2F%2Faccounts.jacksonhewitt.com%2FAccount%2FSignIn%3FReturnUrl%3D%252fwsfed%252f%253fwa%253dwsignin1.0%2526wtrealm%253dhttps%25253a%25252f%25252fwww2.jacksonhewitt.com%25252fMyJH%25252f%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fMyJH%2525252fDashboard%2525252fCheck-Status%2525252f%2525253fsource%2525253dmyjh%2526wct%253d2016-07-13T01%25253a00%25253a49Z%26wa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3D2016-07-13T01%253a00%253a49Z" RecordedValue="https%3A%2F%2Faccounts.jacksonhewitt.com%2FAccount%2FSignIn%3FReturnUrl%3D%252fwsfed%252f%253fwa%253dwsignin1.0%2526wtrealm%253dhttps%25253a%25252f%25252fwww2.jacksonhewitt.com%25252fMyJH%25252f%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fMyJH%2525252fDashboard%2525252fCheck-Status%2525252f%2525253fsource%2525253dmyjh%2526wct%253d2016-07-13T01%25253a00%25253a49Z%26wa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3D2016-07-13T01%253a00%253a49Z" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="rn" Value="906032" RecordedValue="906032" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="bffa6b59-968f-430b-b8d2-8430eccfdc54" Version="1.1" Url="https://bat.bing.com/action/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="ti" Value="5176460" RecordedValue="5176460" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Ver" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mid" Value="f6d168dc-e8d8-79b5-3b48-79eed5a311c8" RecordedValue="f6d168dc-e8d8-79b5-3b48-79eed5a311c8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="evt" Value="pageLoad" RecordedValue="pageLoad" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="lt" Value="706" RecordedValue="706" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pi" Value="576086242" RecordedValue="576086242" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="lg" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sh" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sc" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="r" Value="https%3A%2F%2Fwww2.jacksonhewitt.com%2F" RecordedValue="https%3A%2F%2Fwww2.jacksonhewitt.com%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="tl" Value="Sign+In+|+Jackson+Hewitt+Tax+Service" RecordedValue="Sign+In+|+Jackson+Hewitt+Tax+Service" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="p" Value="https%3A%2F%2Faccounts.jacksonhewitt.com%2FAccount%2FSignIn%3FReturnUrl%3D%252fwsfed%252f%253fwa%253dwsignin1.0%2526wtrealm%253dhttps%25253a%25252f%25252fwww2.jacksonhewitt.com%25252fMyJH%25252f%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fMyJH%2525252fDashboard%2525252fCheck-Status%2525252f%2525253fsource%2525253dmyjh%2526wct%253d2016-07-13T01%25253a00%25253a49Z%26wa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3D2016-07-13T01%253a00%253a49Z" RecordedValue="https%3A%2F%2Faccounts.jacksonhewitt.com%2FAccount%2FSignIn%3FReturnUrl%3D%252fwsfed%252f%253fwa%253dwsignin1.0%2526wtrealm%253dhttps%25253a%25252f%25252fwww2.jacksonhewitt.com%25252fMyJH%25252f%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fMyJH%2525252fDashboard%2525252fCheck-Status%2525252f%2525253fsource%2525253dmyjh%2526wct%253d2016-07-13T01%25253a00%25253a49Z%26wa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3D2016-07-13T01%253a00%253a49Z" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="rn" Value="431281" RecordedValue="431281" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://www2.jacksonhewitt.com/" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam163.family" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?family=" />
+            <RuleParameter Name="EndsWith" Value="'" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2832.wa" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;wa=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2833.wtrealm" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;wtrealm=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2834.wctx" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;wctx=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="source" Value="myjh" RecordedValue="myjh" CorrelationBinding="{{QueryStringParam1.source}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="08e69689-826b-446e-b990-2b12b15bf374" Version="1.1" Url="https://www.google.com/recaptcha/api2/anchor" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="k" Value="6LddFxQTAAAAAIv-3vX-Z4IxTqQMUNYeGlExx8cc" RecordedValue="6LddFxQTAAAAAIv-3vX-Z4IxTqQMUNYeGlExx8cc" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="co" Value="aHR0cHM6Ly9hY2NvdW50cy5qYWNrc29uaGV3aXR0LmNvbTo0NDM." RecordedValue="aHR0cHM6Ly9hY2NvdW50cy5qYWNrc29uaGV3aXR0LmNvbTo0NDM." CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="hl" Value="en" RecordedValue="en" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="v" Value="r20160706101427" RecordedValue="r20160706101427" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="size" Value="normal" RecordedValue="normal" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cb" Value="sezqe8n4wva2" RecordedValue="sezqe8n4wva2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="0d1aa815-7e7a-43e3-94d8-f3fa6d21a202" Version="1.1" Url="https://www.jacksonhewitt.com/termsofusegeneric.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="3ad4ffa5-6212-4a9d-81f7-9022067cd079" Version="1.1" Url="https://www.jacksonhewitt.com/privacypolicygeneric.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="a462f271-2b55-451c-ba49-e0df002babd8" Version="1.1" Url="https://fonts.googleapis.com/css" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.jacksonhewitt.com/privacypolicygeneric.aspx" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="family" Value="Lato:300,400,700|Varela+Round" RecordedValue="Lato:300,400,700|Varela+Round" CorrelationBinding="{{QueryStringParam630.family}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam630.family" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?family=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="cf3568ab-f5f8-4e3e-8d06-9bc644aec343" Version="1.1" Url="https://www.jacksonhewitt.com/eulageneric.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="23a290e7-98ae-40ee-9943-07f413c56cfc" Version="1.1" Url="https://fonts.googleapis.com/css" ThinkTime="12" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.jacksonhewitt.com/eulageneric.aspx" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="family" Value="Lato:300,400,700|Varela+Round" RecordedValue="Lato:300,400,700|Varela+Round" CorrelationBinding="{{QueryStringParam1733.family}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1733.family" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?family=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="04b9ad9d-2f2b-4344-b59f-06684c551582" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.google.com/recaptcha/api2/anchor?k=6LddFxQTAAAAAIv-3vX-Z4IxTqQMUNYeGlExx8cc&amp;co=aHR0cHM6Ly9hY2NvdW50cy5qYWNrc29uaGV3aXR0LmNvbTo0NDM.&amp;hl=en&amp;v=r20160706101427&amp;size=normal&amp;cb=sezqe8n4wva2" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="4b9df3e5-1496-40bd-addf-cfa03ff6f7f9" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.google.com/recaptcha/api2/anchor?k=6LddFxQTAAAAAIv-3vX-Z4IxTqQMUNYeGlExx8cc&amp;co=aHR0cHM6Ly9hY2NvdW50cy5qYWNrc29uaGV3aXR0LmNvbTo0NDM.&amp;hl=en&amp;v=r20160706101427&amp;size=normal&amp;cb=sezqe8n4wva2" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="d44d2891-3a50-4ed4-af12-08324e1f2f6e" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/mnpfi9pxYH-Go5UiibESIqCWcynf_cDxXwCLxiixG1c.ttf" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.google.com/recaptcha/api2/anchor?k=6LddFxQTAAAAAIv-3vX-Z4IxTqQMUNYeGlExx8cc&amp;co=aHR0cHM6Ly9hY2NvdW50cy5qYWNrc29uaGV3aXR0LmNvbTo0NDM.&amp;hl=en&amp;v=r20160706101427&amp;size=normal&amp;cb=sezqe8n4wva2" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="04df37bb-a796-4d4e-a9e4-2f8e3ba7c2ad" Version="1.1" Url="https://www.jacksonhewitt.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="0778cb7a-d94a-4312-becd-9ad27b3729fe" Version="1.1" Url="https://fonts.googleapis.com/css" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="family" Value="Lato:300,400,700,400italic|Varela+Round" RecordedValue="Lato:300,400,700,400italic|Varela+Round" CorrelationBinding="{{QueryStringParam1734.family}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z&amp;wa=wsignin1.0&amp;wtrealm=https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f&amp;wctx=rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh&amp;wct=2016-07-13T01%3a00%3a49Z" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam636.guid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;guid=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam884.guid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;guid=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1734.family" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?family=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2229.cn" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?cn=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2230.ActivityID" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;ActivityID=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2255.label" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;label=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2256.guid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;guid=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="870b03fb-cc78-4510-9cef-7f8005f754e9" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963471823/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.google.com/ads/user-lists/963471823/?fmt=1&amp;num=1&amp;cv=8&amp;frm=0&amp;url=https%3A//www.jacksonhewitt.com/&amp;ref=https%3A//accounts.jacksonhewitt.com/Account/SignIn%3FReturnUrl%3D%252fwsfed%252f%253fwa%253dwsignin1.0%2526wtrealm%253dhttps%25253a%25252f%25252fwww2.jacksonhewitt.com%25252fMyJH%25252f%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fMyJH%2525252fDashboard%2525252fCheck-Status%2525252f%2525253fsource%2525253dmyjh%2526wct%253d2016-07-13T01%25253a00%25253a49Z%26wa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3D2016-07-13T01%253a0&amp;random=1826228560" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="random" Value="1468371664519" RecordedValue="1468371664519" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fst" Value="1468371664519" RecordedValue="1468371664519" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="num" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="{{QueryStringParam636.guid}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_h" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_w" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_ah" Value="860" RecordedValue="860" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_aw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_his" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_tz" Value="-240" RecordedValue="-240" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frm" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="https%3A//www.jacksonhewitt.com/" RecordedValue="https%3A//www.jacksonhewitt.com/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ref" Value="https%3A//accounts.jacksonhewitt.com/Account/SignIn%3FReturnUrl%3D%252fwsfed%252f%253fwa%253dwsignin1.0%2526wtrealm%253dhttps%25253a%25252f%25252fwww2.jacksonhewitt.com%25252fMyJH%25252f%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fMyJH%2525252fDashboard%2525252fCheck-Status%2525252f%2525253fsource%2525253dmyjh%2526wct%253d2016-07-13T01%25253a00%25253a49Z%26wa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3D2016-07-13T01%253a0" RecordedValue="https%3A//accounts.jacksonhewitt.com/Account/SignIn%3FReturnUrl%3D%252fwsfed%252f%253fwa%253dwsignin1.0%2526wtrealm%253dhttps%25253a%25252f%25252fwww2.jacksonhewitt.com%25252fMyJH%25252f%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fMyJH%2525252fDashboard%2525252fCheck-Status%2525252f%2525253fsource%2525253dmyjh%2526wct%253d2016-07-13T01%25253a00%25253a49Z%26wa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3D2016-07-13T01%253a0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tiba" Value="Jackson%20Hewitt%C2%AE" RecordedValue="Jackson%20Hewitt%C2%AE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="a1fc4f7d-94e7-426a-81a7-d5dad36d5d7a" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963471823/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.google.com/ads/user-lists/963471823/?fmt=1&amp;num=1&amp;cv=8&amp;frm=1&amp;url=https%3A//www.jacksonhewitt.com/&amp;random=2852778072" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="random" Value="1468371664529" RecordedValue="1468371664529" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fst" Value="1468371664529" RecordedValue="1468371664529" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="num" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="{{QueryStringParam884.guid}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_h" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_w" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_ah" Value="860" RecordedValue="860" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_aw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_his" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_tz" Value="-240" RecordedValue="-240" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frm" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="https%3A//www.jacksonhewitt.com/" RecordedValue="https%3A//www.jacksonhewitt.com/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4d428e1c-b347-4c20-986d-75614a5e3200" Version="1.1" Url="https://www.jacksonhewitt.com/file-taxes-online/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="d3aa6832-9ccd-4473-b2d9-071daedfce91" Version="1.1" Url="https://fonts.googleapis.com/css" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.jacksonhewitt.com/file-taxes-online/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="family" Value="Lato:300,400,700|Varela+Round" RecordedValue="Lato:300,400,700|Varela+Round" CorrelationBinding="{{QueryStringParam2872.family}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2872.family" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?family=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="06b2096c-ee72-4c7a-9ccf-f247efedfb03" Version="1.1" Url="http://www.jacksonhewitt.com/file-taxes-online/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="8f29eebb-21d5-4752-bea7-5573bac4f0ee" Version="1.1" Url="http://fonts.googleapis.com/css" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="family" Value="Lato:300,400,700|Varela+Round" RecordedValue="Lato:300,400,700|Varela+Round" CorrelationBinding="{{QueryStringParam2873.family}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1123.guid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;guid=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1413.guid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;guid=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2873.family" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?family=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2874.cn" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?cn=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2875.ActivityID" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;ActivityID=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2903.label" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;label=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2904.guid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;guid=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="062515c2-a1c8-4936-9c5f-4ea4fef154b7" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963471823/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.google.com/ads/user-lists/963471823/?fmt=1&amp;num=1&amp;cv=8&amp;frm=1&amp;url=http%3A//www.jacksonhewitt.com/file-taxes-online/&amp;random=379498283" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="random" Value="1468371671859" RecordedValue="1468371671859" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fst" Value="1468371671859" RecordedValue="1468371671859" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="num" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="{{QueryStringParam1123.guid}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_h" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_w" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_ah" Value="860" RecordedValue="860" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_aw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_his" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_tz" Value="-240" RecordedValue="-240" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frm" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="http%3A//www.jacksonhewitt.com/file-taxes-online/" RecordedValue="http%3A//www.jacksonhewitt.com/file-taxes-online/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c714851a-de80-4132-b21f-629035769ee1" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963471823/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.google.com/ads/user-lists/963471823/?fmt=1&amp;num=1&amp;cv=8&amp;frm=0&amp;url=http%3A//www.jacksonhewitt.com/file-taxes-online/&amp;random=1194828669" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="random" Value="1468371671947" RecordedValue="1468371671947" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fst" Value="1468371671947" RecordedValue="1468371671947" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="num" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="{{QueryStringParam1413.guid}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_h" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_w" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_ah" Value="860" RecordedValue="860" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_aw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_his" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_tz" Value="-240" RecordedValue="-240" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frm" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="http%3A//www.jacksonhewitt.com/file-taxes-online/" RecordedValue="http%3A//www.jacksonhewitt.com/file-taxes-online/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tiba" Value="File%20Taxes%20Online%20%7C%20Jackson%20Hewitt" RecordedValue="File%20Taxes%20Online%20%7C%20Jackson%20Hewitt" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4ac98edc-08c3-4b8e-b77c-545fdfa73276" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/KT3KS9Aol4WfR6Vas8kNcg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="33835ec5-3d84-4bc9-9303-adc5ce80b99b" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/9k-RPmcnxYEPm8CNFsH2gg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e39daeb6-b29d-4805-a4c4-730f38b2e669" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/wkfQbvfT_02e2IWO3yYueQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="8d8a97bb-376d-4b1b-bde1-c21d2400be5c" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/oUan5VrEkpzIazlUe5ieaA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="106fa99a-14f6-4d52-9859-52315d983eda" Version="1.1" Url="https://bat.r.msn.com/action-uic/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ti" Value="5176460" RecordedValue="5176460" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="Ver" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mid" Value="00caaf06-75ac-70e9-7ad2-8a3771307e40" RecordedValue="00caaf06-75ac-70e9-7ad2-8a3771307e40" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="evt" Value="pageLoad" RecordedValue="pageLoad" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pi" Value="576086242" RecordedValue="576086242" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lg" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sh" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sc" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="r" Value="https%3A%2F%2Faccounts.jacksonhewitt.com%2FAccount%2FSignIn" RecordedValue="https%3A%2F%2Faccounts.jacksonhewitt.com%2FAccount%2FSignIn" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tl" Value="Jackson+Hewitt%c2%ae" RecordedValue="Jackson+Hewitt%c2%ae" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="p" Value="https%3A%2F%2Fwww.jacksonhewitt.com%2F" RecordedValue="https%3A%2F%2Fwww.jacksonhewitt.com%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rn" Value="308608" RecordedValue="308608" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="6c5df081-b880-4ee1-9981-21d35e8f512e" Version="1.1" Url="https://bat.bing.com/action/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ti" Value="5176460" RecordedValue="5176460" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="Ver" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mid" Value="00caaf06-75ac-70e9-7ad2-8a3771307e40" RecordedValue="00caaf06-75ac-70e9-7ad2-8a3771307e40" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="evt" Value="pageLoad" RecordedValue="pageLoad" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pi" Value="576086242" RecordedValue="576086242" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lg" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sh" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sc" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="r" Value="https%3A%2F%2Faccounts.jacksonhewitt.com%2FAccount%2FSignIn" RecordedValue="https%3A%2F%2Faccounts.jacksonhewitt.com%2FAccount%2FSignIn" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tl" Value="Jackson+Hewitt%c2%ae" RecordedValue="Jackson+Hewitt%c2%ae" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="p" Value="https%3A%2F%2Fwww.jacksonhewitt.com%2F" RecordedValue="https%3A%2F%2Fwww.jacksonhewitt.com%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rn" Value="15935" RecordedValue="15935" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="ae1df752-a727-496e-ae12-3680e3879b7f" Version="1.1" Url="https://bs.serving-sys.com/Serving/ActivityServer.bs" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="cn" Value="as" RecordedValue="as" CorrelationBinding="{{QueryStringParam2229.cn}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ActivityID" Value="575246" RecordedValue="575246" CorrelationBinding="{{QueryStringParam2230.ActivityID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rnd" Value="611724.2279858153" RecordedValue="611724.2279858153" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="5ef5a455-27e6-4f5d-b55c-dffc8c965eab" Version="1.1" Url="https://centro.pixel.ad/iap/97aa78d3794540ba" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="3f455273-d562-4cf6-aff4-0e715354ef8d" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963471823/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="random" Value="1468371664559" RecordedValue="1468371664559" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fst" Value="1468371664519" RecordedValue="1468371664519" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="num" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="label" Value="wiLICOjTl1oQz9O1ywM" RecordedValue="wiLICOjTl1oQz9O1ywM" CorrelationBinding="{{QueryStringParam2255.label}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="{{QueryStringParam2256.guid}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_h" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_w" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_ah" Value="860" RecordedValue="860" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_aw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_his" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_tz" Value="-240" RecordedValue="-240" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frm" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="https%3A//www.jacksonhewitt.com/" RecordedValue="https%3A//www.jacksonhewitt.com/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ref" Value="https%3A//accounts.jacksonhewitt.com/Account/SignIn%3FReturnUrl%3D%252fwsfed%252f%253fwa%253dwsignin1.0%2526wtrealm%253dhttps%25253a%25252f%25252fwww2.jacksonhewitt.com%25252fMyJH%25252f%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fMyJH%2525252fDashboard%2525252fCheck-Status%2525252f%2525253fsource%2525253dmyjh%2526wct%253d2016-07-13T01%25253a00%25253a49Z%26wa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3D2016-07-13T01%253a0" RecordedValue="https%3A//accounts.jacksonhewitt.com/Account/SignIn%3FReturnUrl%3D%252fwsfed%252f%253fwa%253dwsignin1.0%2526wtrealm%253dhttps%25253a%25252f%25252fwww2.jacksonhewitt.com%25252fMyJH%25252f%2526wctx%253drm%25253d0%252526id%25253dpassive%252526ru%25253d%2525252fMyJH%2525252fDashboard%2525252fCheck-Status%2525252f%2525253fsource%2525253dmyjh%2526wct%253d2016-07-13T01%25253a00%25253a49Z%26wa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3D2016-07-13T01%253a0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tiba" Value="Jackson%20Hewitt%C2%AE" RecordedValue="Jackson%20Hewitt%C2%AE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="2a784e72-0c44-4e11-921f-c455778e292f" Version="1.1" Url="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="b6735e6d-f795-4c4e-bd35-8e5963edd389" Version="1.1" Url="https://fonts.gstatic.com/s/varelaround/v7/APH4jr0uSos5wiut5cpjrnhCUOGz7vYGh680lGh-uXM.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="b00ebf5a-947c-423f-bd00-3e2c8ce48684" Version="1.1" Url="https://bs.serving-sys.com/Serving" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="cn" Value="ot" RecordedValue="ot" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="onetagid" Value="4398" RecordedValue="4398" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dispType" Value="js" RecordedValue="js" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sync" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pageurl" Value="$$https%3A//www.jacksonhewitt.com/$$" RecordedValue="$$https%3A//www.jacksonhewitt.com/$$" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ns" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rnd" Value="02784408793876475" RecordedValue="02784408793876475" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="referrer" Value="$$https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z" RecordedValue="$$https://accounts.jacksonhewitt.com/Account/SignIn?ReturnUrl=%2fwsfed%2f%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fwww2.jacksonhewitt.com%252fMyJH%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252fMyJH%25252fDashboard%25252fCheck-Status%25252f%25253fsource%25253dmyjh%26wct%3d2016-07-13T01%253a00%253a49Z" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wa" Value="wsignin1.0" RecordedValue="wsignin1.0" CorrelationBinding="{{QueryStringParam2832.wa}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wtrealm" Value="https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f" RecordedValue="https%3a%2f%2fwww2.jacksonhewitt.com%2fMyJH%2f" CorrelationBinding="{{QueryStringParam2833.wtrealm}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wctx" Value="rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh" RecordedValue="rm%3d0%26id%3dpassive%26ru%3d%252fMyJH%252fDashboard%252fCheck-Status%252f%253fsource%253dmyjh" CorrelationBinding="{{QueryStringParam2834.wctx}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wct" Value="2016-07-13T01%3a00%3a49Z$$" RecordedValue="2016-07-13T01%3a00%3a49Z$$" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="3d57c64e-9595-4164-b8e0-2fd288f5fd26" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/KT3KS9Aol4WfR6Vas8kNcg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="715ee8bb-b4d7-4bd2-9aca-21a2722fd630" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/9k-RPmcnxYEPm8CNFsH2gg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a039a42c-7dde-4deb-b122-78bcd6f5c45d" Version="1.1" Url="https://fonts.gstatic.com/s/lato/v11/wkfQbvfT_02e2IWO3yYueQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5a1c5b81-ee3d-4ab0-8c48-fb9adde71a11" Version="1.1" Url="http://fonts.gstatic.com/s/lato/v11/KT3KS9Aol4WfR6Vas8kNcg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5707e7f7-fac1-4773-bef9-2356bd5da296" Version="1.1" Url="http://fonts.gstatic.com/s/lato/v11/9k-RPmcnxYEPm8CNFsH2gg.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="8cff94d4-30da-47ec-86a9-8dd66ddfbac4" Version="1.1" Url="http://fonts.gstatic.com/s/lato/v11/wkfQbvfT_02e2IWO3yYueQ.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="d13c2e87-d362-4985-a6e6-557f1316074e" Version="1.1" Url="https://bs.serving-sys.com/Serving/ActivityServer.bs" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="cn" Value="as" RecordedValue="as" CorrelationBinding="{{QueryStringParam2874.cn}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ActivityID" Value="575246" RecordedValue="575246" CorrelationBinding="{{QueryStringParam2875.ActivityID}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rnd" Value="952526.5569117162" RecordedValue="952526.5569117162" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="255dc325-768b-4bba-998d-d4a63c65dc48" Version="1.1" Url="https://centro.pixel.ad/iap/97aa78d3794540ba" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="1712256c-661b-4779-a4f1-0fc71b4382cc" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="abc681a6-7082-43ca-85ce-ed7451cb7c7c" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/963471823/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="random" Value="1468371671978" RecordedValue="1468371671978" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cv" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fst" Value="1468371671947" RecordedValue="1468371671947" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="num" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="label" Value="wiLICOjTl1oQz9O1ywM" RecordedValue="wiLICOjTl1oQz9O1ywM" CorrelationBinding="{{QueryStringParam2903.label}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="guid" Value="ON" RecordedValue="ON" CorrelationBinding="{{QueryStringParam2904.guid}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_h" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_w" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_ah" Value="860" RecordedValue="860" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_aw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_his" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_tz" Value="-240" RecordedValue="-240" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nmime" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frm" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="http%3A//www.jacksonhewitt.com/file-taxes-online/" RecordedValue="http%3A//www.jacksonhewitt.com/file-taxes-online/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tiba" Value="File%20Taxes%20Online%20%7C%20Jackson%20Hewitt" RecordedValue="File%20Taxes%20Online%20%7C%20Jackson%20Hewitt" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="8ac4a77f-6f9e-420e-afc1-77033430af94" Version="1.1" Url="http://fonts.gstatic.com/s/varelaround/v7/APH4jr0uSos5wiut5cpjrnhCUOGz7vYGh680lGh-uXM.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="3e19eff6-2fb9-481c-9f2c-70f6b253607c" Version="1.1" Url="https://bs.serving-sys.com/Serving" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="cn" Value="ot" RecordedValue="ot" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="onetagid" Value="4398" RecordedValue="4398" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dispType" Value="js" RecordedValue="js" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sync" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pageurl" Value="$$http%3A//www.jacksonhewitt.com/file-taxes-online/$$" RecordedValue="$$http%3A//www.jacksonhewitt.com/file-taxes-online/$$" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ns" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rnd" Value="16104036932657567" RecordedValue="16104036932657567" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f582a6f8-0462-46d2-bd63-e5166847a880" Version="1.1" Url="http://bat.r.msn.com/action-uic/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ti" Value="5176460" RecordedValue="5176460" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="Ver" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mid" Value="778b0c69-4ceb-2328-fe1d-6d1750f2b6dd" RecordedValue="778b0c69-4ceb-2328-fe1d-6d1750f2b6dd" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="evt" Value="pageLoad" RecordedValue="pageLoad" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lt" Value="1661" RecordedValue="1661" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pi" Value="576086242" RecordedValue="576086242" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lg" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sh" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sc" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tl" Value="File+Taxes+Online+|+Jackson+Hewitt" RecordedValue="File+Taxes+Online+|+Jackson+Hewitt" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="p" Value="http%3A%2F%2Fwww.jacksonhewitt.com%2Ffile-taxes-online%2F" RecordedValue="http%3A%2F%2Fwww.jacksonhewitt.com%2Ffile-taxes-online%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="r" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rn" Value="318702" RecordedValue="318702" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="05ce671a-f38b-42bb-b34c-2a09fed9ef05" Version="1.1" Url="http://bat.bing.com/action/0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.jacksonhewitt.com/file-taxes-online/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ti" Value="5176460" RecordedValue="5176460" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="Ver" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mid" Value="778b0c69-4ceb-2328-fe1d-6d1750f2b6dd" RecordedValue="778b0c69-4ceb-2328-fe1d-6d1750f2b6dd" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="evt" Value="pageLoad" RecordedValue="pageLoad" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lt" Value="1661" RecordedValue="1661" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pi" Value="576086242" RecordedValue="576086242" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lg" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sw" Value="1600" RecordedValue="1600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sh" Value="900" RecordedValue="900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sc" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tl" Value="File+Taxes+Online+|+Jackson+Hewitt" RecordedValue="File+Taxes+Online+|+Jackson+Hewitt" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="p" Value="http%3A%2F%2Fwww.jacksonhewitt.com%2Ffile-taxes-online%2F" RecordedValue="http%3A%2F%2Fwww.jacksonhewitt.com%2Ffile-taxes-online%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="r" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rn" Value="641378" RecordedValue="641378" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
