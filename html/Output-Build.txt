@@ -1,0 +1,6 @@
+﻿------ Build started: Project: html, Configuration: Debug Any CPU ------
+Validating Web Site
+Building directory '/js/'.
+
+Validation Complete
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
